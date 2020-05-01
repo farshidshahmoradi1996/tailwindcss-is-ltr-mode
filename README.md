@@ -61,17 +61,6 @@ By default, `.mode-dark` is used as the selector for dark mode. You can change t
 If you are using PurgeCSS, you should either add the selector to the `whitelist` array...
 
 ```javascript
-whitelist: ['mode-dark']
+whitelist: ['is-ltr']
 ```
 
-... or add `prefers-dark.js` to the `content` array.
-
-```javascript
-content: [
-  '**/*.js',
-  './node_modules/tailwindcss-dark-mode/prefers-dark.js',
-  './or/your/own/prefers-dark.js'
-]
-```
-
-Otherwise, PurgeCSS will assume that any classes related to dark mode should be removed, as the selector is only applied when the page is loaded.
