@@ -1,0 +1,32 @@
+{
+  "name": "tailwindcss-is-ltr-mode",
+  "description": "A Tailwind CSS plugin that adds variants for ltr mode",
+  "version": "1.0.0",
+  "author": "Farshid Shahmoradi",
+  "license": "MIT",
+  "copyright": "Farshid Shahmoradi",
+  "main": "index.js",
+  "homepage": "https://github.com/farshidshahmoradi1996/tailwindcss-is-ltr-mode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farshidshahmoradi1996/tailwindcss-is-ltr-mode"
+  },
+  "bugs": "https://github.com/farshidshahmoradi1996/tailwindcss-is-ltr-mode/issues",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "ltr",
+    "ltr-mode",
+    "postcss",
+    "css",
+    "javascript"
+  ],
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
