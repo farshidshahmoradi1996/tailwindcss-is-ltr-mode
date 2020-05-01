@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm install tailwindcss-is-ltr-mode --save-dev
+yarn  add farshidshahmoradi1996/tailwindcss-is-ltr-mode.git -D
 ```
 
 Add the plugin to the `plugins` array in your Tailwind configuration.
